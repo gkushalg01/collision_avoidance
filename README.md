@@ -23,5 +23,13 @@ This program is taking all the dots (red or white doesn't matter) and predicting
 
 https://github.com/gkushalg01/collision_avoidance/assets/57442239/cb1cd5bb-8610-4113-baea-c5768e171ee5
 
+## snowflake
+This has nothing to do with collision avoidance or prediction, I just liked it, found it while searching.
+
+https://github.com/gkushalg01/collision_avoidance/assets/57442239/2af56d33-b831-4f2b-ba61-ff29f0df5c29
+
+
+
+
 
 
