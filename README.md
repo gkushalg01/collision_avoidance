@@ -9,8 +9,19 @@ It required 1 month but I made a good rnough system for collision avoidance usin
 
 Anyhow, I decided that it would be best to just show the output:
 
-# collision-avoidance-original
+## collision-avoidance-original
 This program is based on drones which have free movement in 2D space.  
 The solid red dot is trying to consume the empty red dot while 4 empty white dots are chasing the solid red dot.  
 The background contains 64 more dots.  
 All the dots are avoiding collsion from each other.  
+
+https://github.com/gkushalg01/collision_avoidance/assets/57442239/423b739d-f03c-4ffc-96d0-09c9ca7e43b2
+
+
+## collision-predictor
+This program is taking all the dots (red or white doesn't matter) and predicting the time to collision with any other dot.
+
+https://github.com/gkushalg01/collision_avoidance/assets/57442239/cb1cd5bb-8610-4113-baea-c5768e171ee5
+
+
+
