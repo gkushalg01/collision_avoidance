@@ -2,12 +2,26 @@
 This repo contains the code I came across while researching on collision avoidance. 
 
 
-Firsly I camer acrros a pretty cool algorithm but realised that it was specific to drones. As it depended on free movment of robots in any direction.    
+Firsly I came across a pretty cool algorithm but realised that it was specific to drones. As it depended on free movment of robots in any direction.    
 In my case, however, the robots are warehouse robots which have restricted movement, restricted upto the instructed path.  
 So ultimately, I had to scrape that algorithm and totally devise something of my own.  
 It required 1 month but I made a good rnough system for collision avoidance using simple concepts of geometry and multiple conditions condensed into two statements. It is not possible to condense it in a readme as the actual documentation is of many pages.  
 
 Anyhow, I decided that it would be best to just show the output:
+
+## collision-avoidance-final
+My Traffic Manager works on the principal of pausing one robot before intersection, the distance at which it is paused is called 'collision circle'.  
+Here you can fidget with this concept - try to move only the head of the robots. [https://www.geogebra.org/geometry/cdg6jcz9](https://www.geogebra.org/geometry/cdg6jcz9)  
+  
+I have also created a rosbag file of my creation, so that you can see it on your device at runtime - [https://github.com/gkushalg01/collision_avoidance/blob/main/gold-filtered.bag](https://github.com/gkushalg01/collision_avoidance/blob/main/gold-filtered.bag)  
+Just a simple ```rosbag play gold-filtered.bag``` is sufficient to run this.  
+  
+You can view the above rosbag in rviz using command ```rviz -d botjobtracker.rviz``` - [https://github.com/gkushalg01/collision_avoidance/blob/main/botjobtracker.rviz](https://github.com/gkushalg01/collision_avoidance/blob/main/botjobtracker.rviz)  
+
+If you are too lazy/busy, here is a video for quick reference -  
+
+https://github.com/gkushalg01/collision_avoidance/assets/57442239/ba8cba74-125c-4645-af7d-e5f98725dbdc
+
 
 ## collision-avoidance-original
 This program is based on drones which have free movement in 2D space.  
@@ -16,6 +30,8 @@ The background contains 64 more dots.
 All the dots are avoiding collsion from each other.  
 
 https://github.com/gkushalg01/collision_avoidance/assets/57442239/423b739d-f03c-4ffc-96d0-09c9ca7e43b2  
+
+
 
 
 ## collision-predictor
