@@ -34,6 +34,8 @@ It also shows live "MOVING" or "PAUSED" status
   
   
 If you are too lazy/busy, here is a video for quick reference -  
+This video contains realtime mobile robot data which are moving and pausing as per traffic manager.  
+You can also see when exactly the PAUSE/RESUME signal is sent on topic ```/report/trafficmanager```  
   
 https://github.com/gkushalg01/collision_avoidance/assets/57442239/ba8cba74-125c-4645-af7d-e5f98725dbdc
   
