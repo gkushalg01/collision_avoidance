@@ -30,12 +30,18 @@ Green Rectangle is the robot's current trajectory
 Purple Square is the point where Paused signal was sent  
 Robot IDs are shown near their current pose  
 It also shows live "MOVING" or "PAUSED" status  
+
   
+    
+Note that this system is running on a map like this -  
+
+![image](https://github.com/gkushalg01/collision_avoidance/assets/57442239/7f774e59-a1d3-48bd-aeb3-7e585065e2ca)
   
   
 If you are too lazy/busy, here is a video for quick reference -  
 This video contains realtime mobile robot data which are moving and pausing as per traffic manager.  
 You can also see when exactly the PAUSE/RESUME signal is sent on topic ```/report/trafficmanager```  
+
   
 https://github.com/gkushalg01/collision_avoidance/assets/57442239/ba8cba74-125c-4645-af7d-e5f98725dbdc
   
